@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  CRIconView
+//
+//  Created by Bear on 2017/9/17.
+//  Copyright © 2017年 Bear. All rights reserved.
+//
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#import <BearSkill/UIView+BearSet.h>
+#import <BearSkill/BearDefines.h>

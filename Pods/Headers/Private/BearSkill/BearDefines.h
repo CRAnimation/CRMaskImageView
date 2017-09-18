@@ -1,0 +1,1 @@
+../../../BearSkill/Pod/BearDefines/BearDefines.h

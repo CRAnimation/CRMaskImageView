@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0916CAAD1F6ECBBD00825CE6 /* ContourTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0916CAAC1F6ECBBD00825CE6 /* ContourTestView.m */; };
+		0916CAB11F6ECC7600825CE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAB01F6ECC7600825CE6 /* UIKit.framework */; };
+		0916CAB31F6ECC7D00825CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAB21F6ECC7D00825CE6 /* Foundation.framework */; };
+		0916CAB51F6ECC8800825CE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAB41F6ECC8800825CE6 /* CoreGraphics.framework */; };
+		0916CAC31F6F546100825CE6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAC21F6F546100825CE6 /* AssetsLibrary.framework */; };
+		0916CAC81F6F54CC00825CE6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CABC1F6F534300825CE6 /* libstdc++.tbd */; };
+		0916CACD1F6F552400825CE6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAC01F6F543F00825CE6 /* AVFoundation.framework */; };
+		0916CAD01F6F5D4F00825CE6 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CABE1F6F536400825CE6 /* libstdc++.6.0.9.tbd */; };
+		0916CAD61F6F5E9F00825CE6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAC41F6F546D00825CE6 /* CoreMedia.framework */; };
+		0919E8BC1F6F62B2006EEFF5 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0919E8BB1F6F62B2006EEFF5 /* libjpeg.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0919E8BD1F6F64D1006EEFF5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0919E8B71F6F6236006EEFF5 /* opencv2.framework */; };
+		093996771F63C68B000566F5 /* TestLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093996761F63C68B000566F5 /* TestLayerView.m */; };
+		095B19241F5F7BE900951060 /* CRMaskAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B19231F5F7BE900951060 /* CRMaskAnimationView.m */; };
+		095B192A1F60D42100951060 /* CRShiningAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B19291F60D42100951060 /* CRShiningAnimationView.m */; };
+		09BCCD061F5EEDB900A5E275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BCCD051F5EEDB900A5E275 /* main.m */; };
+		09BCCD091F5EEDB900A5E275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BCCD081F5EEDB900A5E275 /* AppDelegate.m */; };
+		09BCCD0C1F5EEDB900A5E275 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BCCD0B1F5EEDB900A5E275 /* ViewController.m */; };
+		09BCCD0F1F5EEDB900A5E275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BCCD0D1F5EEDB900A5E275 /* Main.storyboard */; };
+		09BCCD111F5EEDB900A5E275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BCCD101F5EEDB900A5E275 /* Assets.xcassets */; };
+		09BCCD141F5EEDB900A5E275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BCCD121F5EEDB900A5E275 /* LaunchScreen.storyboard */; };
+		09BCCD201F5EF02300A5E275 /* CRMaskImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BCCD1F1F5EF02300A5E275 /* CRMaskImageView.m */; };
+		E0D18A6B4D4B73108C7084C3 /* libPods-CRIconView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AFBCA57EA4E4A576568A54 /* libPods-CRIconView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0916CAAB1F6ECBBD00825CE6 /* ContourTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContourTestView.h; sourceTree = "<group>"; };
+		0916CAAC1F6ECBBD00825CE6 /* ContourTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContourTestView.m; sourceTree = "<group>"; };
+		0916CAB01F6ECC7600825CE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0916CAB21F6ECC7D00825CE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0916CAB41F6ECC8800825CE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0916CAB61F6ECE1B00825CE6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0916CABA1F6F501800825CE6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv_for_ios_book_samples/opencv2.framework; sourceTree = "<group>"; };
+		0916CABC1F6F534300825CE6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0916CABE1F6F536400825CE6 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		0916CAC01F6F543F00825CE6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0916CAC21F6F546100825CE6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0916CAC41F6F546D00825CE6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0916CAC61F6F54B200825CE6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0916CAC91F6F54F700825CE6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0916CACB1F6F550800825CE6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0916CACE1F6F5B2800825CE6 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../OpenCVFrameWork/libjpeg.a; sourceTree = "<group>"; };
+		0916CAD11F6F5DF000825CE6 /* libjpeg.62.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.62.dylib; path = ../OpenCVFrameWork/libjpeg.62.dylib; sourceTree = "<group>"; };
+		0916CAD31F6F5E4800825CE6 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../../../../opt/libjpeg-turbo/lib/libjpeg.a"; sourceTree = "<group>"; };
+		0919E8B71F6F6236006EEFF5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../OpenCVFrameWork/2.4.13/opencv2.framework; sourceTree = "<group>"; };
+		0919E8B91F6F6287006EEFF5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		0919E8BB1F6F62B2006EEFF5 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		093996751F63C68B000566F5 /* TestLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLayerView.h; sourceTree = "<group>"; };
+		093996761F63C68B000566F5 /* TestLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLayerView.m; sourceTree = "<group>"; };
+		095B19221F5F7BE900951060 /* CRMaskAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMaskAnimationView.h; sourceTree = "<group>"; };
+		095B19231F5F7BE900951060 /* CRMaskAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMaskAnimationView.m; sourceTree = "<group>"; };
+		095B19281F60D42100951060 /* CRShiningAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRShiningAnimationView.h; sourceTree = "<group>"; };
+		095B19291F60D42100951060 /* CRShiningAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRShiningAnimationView.m; sourceTree = "<group>"; };
+		09BCCD011F5EEDB900A5E275 /* CRIconView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRIconView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BCCD051F5EEDB900A5E275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09BCCD071F5EEDB900A5E275 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09BCCD081F5EEDB900A5E275 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09BCCD0A1F5EEDB900A5E275 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09BCCD0B1F5EEDB900A5E275 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09BCCD0E1F5EEDB900A5E275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09BCCD101F5EEDB900A5E275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09BCCD131F5EEDB900A5E275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09BCCD151F5EEDB900A5E275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BCCD1E1F5EF02300A5E275 /* CRMaskImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMaskImageView.h; sourceTree = "<group>"; };
+		09BCCD1F1F5EF02300A5E275 /* CRMaskImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMaskImageView.m; sourceTree = "<group>"; };
+		41812DE40599631E1EEE7777 /* Pods-CRIconView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRIconView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRIconView/Pods-CRIconView.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AFBCA57EA4E4A576568A54 /* libPods-CRIconView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRIconView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D4A35B2A6A8C47AD7F715 /* Pods-CRIconView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRIconView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRIconView/Pods-CRIconView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09BCCCFE1F5EEDB900A5E275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0919E8BD1F6F64D1006EEFF5 /* opencv2.framework in Frameworks */,
+				0919E8BC1F6F62B2006EEFF5 /* libjpeg.a in Frameworks */,
+				0916CAD61F6F5E9F00825CE6 /* CoreMedia.framework in Frameworks */,
+				0916CAD01F6F5D4F00825CE6 /* libstdc++.6.0.9.tbd in Frameworks */,
+				0916CACD1F6F552400825CE6 /* AVFoundation.framework in Frameworks */,
+				0916CAC81F6F54CC00825CE6 /* libstdc++.tbd in Frameworks */,
+				0916CAC31F6F546100825CE6 /* AssetsLibrary.framework in Frameworks */,
+				0916CAB51F6ECC8800825CE6 /* CoreGraphics.framework in Frameworks */,
+				0916CAB31F6ECC7D00825CE6 /* Foundation.framework in Frameworks */,
+				0916CAB11F6ECC7600825CE6 /* UIKit.framework in Frameworks */,
+				E0D18A6B4D4B73108C7084C3 /* libPods-CRIconView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0954119F3DA147B1A930027A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41812DE40599631E1EEE7777 /* Pods-CRIconView.debug.xcconfig */,
+				CC3D4A35B2A6A8C47AD7F715 /* Pods-CRIconView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		09BCCCF81F5EEDB800A5E275 = {
+			isa = PBXGroup;
+			children = (
+				09BCCD031F5EEDB900A5E275 /* CRIconView */,
+				09BCCD021F5EEDB900A5E275 /* Products */,
+				0954119F3DA147B1A930027A /* Pods */,
+				C1B76340C951CCC11569FD57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09BCCD021F5EEDB900A5E275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BCCD011F5EEDB900A5E275 /* CRIconView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09BCCD031F5EEDB900A5E275 /* CRIconView */ = {
+			isa = PBXGroup;
+			children = (
+				09BCCD071F5EEDB900A5E275 /* AppDelegate.h */,
+				09BCCD081F5EEDB900A5E275 /* AppDelegate.m */,
+				09BCCD0A1F5EEDB900A5E275 /* ViewController.h */,
+				09BCCD0B1F5EEDB900A5E275 /* ViewController.m */,
+				09BCCD1E1F5EF02300A5E275 /* CRMaskImageView.h */,
+				09BCCD1F1F5EF02300A5E275 /* CRMaskImageView.m */,
+				095B19221F5F7BE900951060 /* CRMaskAnimationView.h */,
+				095B19231F5F7BE900951060 /* CRMaskAnimationView.m */,
+				095B19281F60D42100951060 /* CRShiningAnimationView.h */,
+				095B19291F60D42100951060 /* CRShiningAnimationView.m */,
+				093996751F63C68B000566F5 /* TestLayerView.h */,
+				093996761F63C68B000566F5 /* TestLayerView.m */,
+				0916CAAB1F6ECBBD00825CE6 /* ContourTestView.h */,
+				0916CAAC1F6ECBBD00825CE6 /* ContourTestView.m */,
+				0916CAB61F6ECE1B00825CE6 /* PrefixHeader.pch */,
+				09BCCD0D1F5EEDB900A5E275 /* Main.storyboard */,
+				09BCCD101F5EEDB900A5E275 /* Assets.xcassets */,
+				09BCCD121F5EEDB900A5E275 /* LaunchScreen.storyboard */,
+				09BCCD151F5EEDB900A5E275 /* Info.plist */,
+				09BCCD041F5EEDB900A5E275 /* Supporting Files */,
+			);
+			path = CRIconView;
+			sourceTree = "<group>";
+		};
+		09BCCD041F5EEDB900A5E275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BCCD051F5EEDB900A5E275 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1B76340C951CCC11569FD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0919E8BB1F6F62B2006EEFF5 /* libjpeg.a */,
+				0919E8B91F6F6287006EEFF5 /* opencv2.framework */,
+				0919E8B71F6F6236006EEFF5 /* opencv2.framework */,
+				0916CAD31F6F5E4800825CE6 /* libjpeg.a */,
+				0916CAD11F6F5DF000825CE6 /* libjpeg.62.dylib */,
+				0916CACE1F6F5B2800825CE6 /* libjpeg.a */,
+				0916CACB1F6F550800825CE6 /* CoreImage.framework */,
+				0916CAC91F6F54F700825CE6 /* ImageIO.framework */,
+				0916CAC61F6F54B200825CE6 /* CoreVideo.framework */,
+				0916CAC41F6F546D00825CE6 /* CoreMedia.framework */,
+				0916CAC21F6F546100825CE6 /* AssetsLibrary.framework */,
+				0916CAC01F6F543F00825CE6 /* AVFoundation.framework */,
+				0916CABE1F6F536400825CE6 /* libstdc++.6.0.9.tbd */,
+				0916CABC1F6F534300825CE6 /* libstdc++.tbd */,
+				0916CABA1F6F501800825CE6 /* opencv2.framework */,
+				0916CAB41F6ECC8800825CE6 /* CoreGraphics.framework */,
+				0916CAB21F6ECC7D00825CE6 /* Foundation.framework */,
+				0916CAB01F6ECC7600825CE6 /* UIKit.framework */,
+				A3AFBCA57EA4E4A576568A54 /* libPods-CRIconView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09BCCD001F5EEDB900A5E275 /* CRIconView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BCCD181F5EEDB900A5E275 /* Build configuration list for PBXNativeTarget "CRIconView" */;
+			buildPhases = (
+				5FA1E05C1D4AADA4D356831E /* [CP] Check Pods Manifest.lock */,
+				09BCCCFD1F5EEDB900A5E275 /* Sources */,
+				09BCCCFE1F5EEDB900A5E275 /* Frameworks */,
+				09BCCCFF1F5EEDB900A5E275 /* Resources */,
+				2F1D67C8B3E8AE491C42BA6D /* [CP] Embed Pods Frameworks */,
+				1EC8B1512F68112767202989 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRIconView;
+			productName = CRIconView;
+			productReference = 09BCCD011F5EEDB900A5E275 /* CRIconView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09BCCCF91F5EEDB800A5E275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bear;
+				TargetAttributes = {
+					09BCCD001F5EEDB900A5E275 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VT6HKJNGDV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09BCCCFC1F5EEDB800A5E275 /* Build configuration list for PBXProject "CRIconView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09BCCCF81F5EEDB800A5E275;
+			productRefGroup = 09BCCD021F5EEDB900A5E275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09BCCD001F5EEDB900A5E275 /* CRIconView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09BCCCFF1F5EEDB900A5E275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BCCD141F5EEDB900A5E275 /* LaunchScreen.storyboard in Resources */,
+				09BCCD111F5EEDB900A5E275 /* Assets.xcassets in Resources */,
+				09BCCD0F1F5EEDB900A5E275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EC8B1512F68112767202989 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRIconView/Pods-CRIconView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1D67C8B3E8AE491C42BA6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRIconView/Pods-CRIconView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA1E05C1D4AADA4D356831E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BCCCFD1F5EEDB900A5E275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BCCD201F5EF02300A5E275 /* CRMaskImageView.m in Sources */,
+				0916CAAD1F6ECBBD00825CE6 /* ContourTestView.m in Sources */,
+				095B192A1F60D42100951060 /* CRShiningAnimationView.m in Sources */,
+				09BCCD0C1F5EEDB900A5E275 /* ViewController.m in Sources */,
+				095B19241F5F7BE900951060 /* CRMaskAnimationView.m in Sources */,
+				093996771F63C68B000566F5 /* TestLayerView.m in Sources */,
+				09BCCD091F5EEDB900A5E275 /* AppDelegate.m in Sources */,
+				09BCCD061F5EEDB900A5E275 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09BCCD0D1F5EEDB900A5E275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BCCD0E1F5EEDB900A5E275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09BCCD121F5EEDB900A5E275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BCCD131F5EEDB900A5E275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09BCCD161F5EEDB900A5E275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09BCCD171F5EEDB900A5E275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09BCCD191F5EEDB900A5E275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41812DE40599631E1EEE7777 /* Pods-CRIconView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VT6HKJNGDV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CRIconView/PrefixHeader.pch";
+				INFOPLIST_FILE = CRIconView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/opt/libjpeg-turbo/lib",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bear.CRIconView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09BCCD1A1F5EEDB900A5E275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3D4A35B2A6A8C47AD7F715 /* Pods-CRIconView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VT6HKJNGDV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CRIconView/PrefixHeader.pch";
+				INFOPLIST_FILE = CRIconView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/opt/libjpeg-turbo/lib",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bear.CRIconView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09BCCCFC1F5EEDB800A5E275 /* Build configuration list for PBXProject "CRIconView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BCCD161F5EEDB900A5E275 /* Debug */,
+				09BCCD171F5EEDB900A5E275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BCCD181F5EEDB900A5E275 /* Build configuration list for PBXNativeTarget "CRIconView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BCCD191F5EEDB900A5E275 /* Debug */,
+				09BCCD1A1F5EEDB900A5E275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09BCCCF91F5EEDB800A5E275 /* Project object */;
+}

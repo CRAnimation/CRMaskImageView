@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B629F2BD0F62A5745A6FF9258260085602BEFF1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8AD2F10625C593DFE6679C6066D0C18376F77DFC" : 9223372036854775807,
+    "8B629F2BD0F62A5745A6FF9258260085602BEFF1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C80AD1BD-D96F-412F-A219-5B2A5ACA097C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8AD2F10625C593DFE6679C6066D0C18376F77DFC" : "opencv_for_ios_book_samples\/",
+    "8B629F2BD0F62A5745A6FF9258260085602BEFF1" : "CRIconView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CRIconView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CRIconView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BearRan\/opencv_for_ios_book_samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AD2F10625C593DFE6679C6066D0C18376F77DFC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CRAnimation\/CRMaskImageView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B629F2BD0F62A5745A6FF9258260085602BEFF1"
+    }
+  ]
+}
