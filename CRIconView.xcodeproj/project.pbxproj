@@ -17,7 +17,6 @@
 		0916CAD01F6F5D4F00825CE6 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CABE1F6F536400825CE6 /* libstdc++.6.0.9.tbd */; };
 		0916CAD61F6F5E9F00825CE6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0916CAC41F6F546D00825CE6 /* CoreMedia.framework */; };
 		0919E8BC1F6F62B2006EEFF5 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0919E8BB1F6F62B2006EEFF5 /* libjpeg.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0919E8BD1F6F64D1006EEFF5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0919E8B71F6F6236006EEFF5 /* opencv2.framework */; };
 		093996771F63C68B000566F5 /* TestLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093996761F63C68B000566F5 /* TestLayerView.m */; };
 		095B19241F5F7BE900951060 /* CRMaskAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B19231F5F7BE900951060 /* CRMaskAnimationView.m */; };
 		095B192A1F60D42100951060 /* CRShiningAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B19291F60D42100951060 /* CRShiningAnimationView.m */; };
@@ -81,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0919E8BD1F6F64D1006EEFF5 /* opencv2.framework in Frameworks */,
 				0919E8BC1F6F62B2006EEFF5 /* libjpeg.a in Frameworks */,
 				0916CAD61F6F5E9F00825CE6 /* CoreMedia.framework in Frameworks */,
 				0916CAD01F6F5D4F00825CE6 /* libstdc++.6.0.9.tbd in Frameworks */,
@@ -448,7 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CRIconView/PrefixHeader.pch";
 				INFOPLIST_FILE = CRIconView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,7 +472,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CRIconView/PrefixHeader.pch";
 				INFOPLIST_FILE = CRIconView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

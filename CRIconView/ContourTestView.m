@@ -7,7 +7,7 @@
 //
 
 #import "ContourTestView.h"
-#import "opencv2/highgui/ios.h"
+//#import "opencv2/highgui/ios.h"
 
 @interface ContourTestView ()
 {
